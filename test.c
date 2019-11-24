@@ -12,10 +12,7 @@ typedef struct
  {
    	int shared_table[3];
    	int i;
-	int a;
-	int b;
-	int c;
-	int d;
+
 	
 }thread_args;
 
@@ -122,7 +119,12 @@ void * f3(void *arg) {
 void f4(void * args){
 	
 	thread_args * arguments = (thread_args *) arg;
-	switch(argumets->)
+	switch(argumets->i) {
+	case 3:
+		
+	case 5:
+	case 4:
+}
 		
 }
 int main() {
